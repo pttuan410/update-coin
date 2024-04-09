@@ -1,4 +1,5 @@
-<?php function update_60_coin() {
+<?php
+function update_60_coin() {
     global $coins,$wpdb;
 	$url = 'https://api.coinlore.net/api/tickers/';
 	$response = wp_remote_get($url);
